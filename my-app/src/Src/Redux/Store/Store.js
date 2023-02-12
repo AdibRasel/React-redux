@@ -1,9 +1,10 @@
-import {configugaration} from "@reduxjs/toolkit"
+// import {configugaration} from "@reduxjs/toolkit"
+import { configureStore } from "@reduxjs/toolkit"
 import { CounterSlice } from "../State/Counter/CounterSlice"
 
 
 
-export default configugaration({ //json object
+export default configureStore({ //json object
 
     reducer:{
 
@@ -14,3 +15,5 @@ export default configugaration({ //json object
 
 
 })
+
+
